@@ -19,3 +19,13 @@ field enum --fieldName seadus --type i377.team19.entities.Seadus
 web mvc setup
 web mvc all --package ~.web
 security setup
+focus --class i377.team19.entities.Intsident
+// [failed] field string --fieldName avaja --notNull
+field string --fieldName muutja --notNull
+field string --fieldName avaja --notNull
+field string --fieldName sulgeja
+field date --fieldName avatud --type java.util.Date
+// [failed] field date --fieldName avatud --type java.util.Date --notNull
+field date --fieldName muudetud --type java.util.Date --notNull
+field date --fieldName suletud --type java.util.Date
+web mvc all --package ~.web

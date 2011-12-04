@@ -7,5 +7,11 @@
         <field:display date="true" dateTimePattern="${intsident_kuupaev_date_format}" field="kuupaev" id="s_i377_team19_entities_Intsident_kuupaev" object="${intsident}" z="3/z6KqDRleKDRMsgeC5xMeCF6T4="/>
         <field:display field="loik" id="s_i377_team19_entities_Intsident_loik" object="${intsident}" z="UijnsEFu3E4drb4W0/k262sB+WU="/>
         <field:display field="seadus" id="s_i377_team19_entities_Intsident_seadus" object="${intsident}" z="j9iJr5ApsxS8XzWkvzahrOlfhtw="/>
+        <field:display field="muutja" id="s_i377_team19_entities_Intsident_muutja" object="${intsident}" z="xgreCYcTYbQVABEvO/WojtkOMtw="/>
+        <field:display field="avaja" id="s_i377_team19_entities_Intsident_avaja" object="${intsident}" z="Gpqe4KEX1IIKQ99MdkKPgmGluLc="/>
+        <field:display field="sulgeja" id="s_i377_team19_entities_Intsident_sulgeja" object="${intsident}" z="piOlLBgLakt4XvOtYEuutS6SE/Q="/>
+        <field:display date="true" dateTimePattern="${intsident_avatud_date_format}" field="avatud" id="s_i377_team19_entities_Intsident_avatud" object="${intsident}" z="nj6x4E6FkqhcidMKENXczGnAyNE="/>
+        <field:display date="true" dateTimePattern="${intsident_muudetud_date_format}" field="muudetud" id="s_i377_team19_entities_Intsident_muudetud" object="${intsident}" z="85TOkH+TTFHD18ezJ/j3/Fjalaw="/>
+        <field:display date="true" dateTimePattern="${intsident_suletud_date_format}" field="suletud" id="s_i377_team19_entities_Intsident_suletud" object="${intsident}" z="rfRyxeVNMs0USO9AlGMIIP7nzww="/>
     </page:show>
 </div>

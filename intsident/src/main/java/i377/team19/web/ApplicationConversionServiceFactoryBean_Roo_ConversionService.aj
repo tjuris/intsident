@@ -21,7 +21,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     static class i377.team19.web.ApplicationConversionServiceFactoryBean.IntsidentConverter implements Converter<Intsident, String> {
         public String convert(Intsident intsident) {
-            return new StringBuilder().append(intsident.getName()).append(" ").append(intsident.getKuupaev()).toString();
+            return new StringBuilder().append(intsident.getName()).append(" ").append(intsident.getKuupaev()).append(" ").append(intsident.getMuutja()).append(" ").append(intsident.getAvaja()).toString();
         }
         
     }

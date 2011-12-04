@@ -42,4 +42,52 @@ privileged aspect Intsident_Roo_JavaBean {
         this.seadus = seadus;
     }
     
+    public String Intsident.getMuutja() {
+        return this.muutja;
+    }
+    
+    public void Intsident.setMuutja(String muutja) {
+        this.muutja = muutja;
+    }
+    
+    public String Intsident.getAvaja() {
+        return this.avaja;
+    }
+    
+    public void Intsident.setAvaja(String avaja) {
+        this.avaja = avaja;
+    }
+    
+    public String Intsident.getSulgeja() {
+        return this.sulgeja;
+    }
+    
+    public void Intsident.setSulgeja(String sulgeja) {
+        this.sulgeja = sulgeja;
+    }
+    
+    public Date Intsident.getAvatud() {
+        return this.avatud;
+    }
+    
+    public void Intsident.setAvatud(Date avatud) {
+        this.avatud = avatud;
+    }
+    
+    public Date Intsident.getMuudetud() {
+        return this.muudetud;
+    }
+    
+    public void Intsident.setMuudetud(Date muudetud) {
+        this.muudetud = muudetud;
+    }
+    
+    public Date Intsident.getSuletud() {
+        return this.suletud;
+    }
+    
+    public void Intsident.setSuletud(Date suletud) {
+        this.suletud = suletud;
+    }
+    
 }

@@ -7,5 +7,11 @@
         <field:datetime dateTimePattern="${intsident_kuupaev_date_format}" field="kuupaev" id="c_i377_team19_entities_Intsident_kuupaev" z="Cy583eYseHI64k19VAYxHchhTs4="/>
         <field:select field="loik" id="c_i377_team19_entities_Intsident_loik" items="${loiks}" path="loiks" z="hEBFxy/bv4c6hbyqbibr3BBb+Ec="/>
         <field:select field="seadus" id="c_i377_team19_entities_Intsident_seadus" items="${seaduses}" path="seaduses" z="DM8/iEY8jGE2YLdGxWHyxDjx3og="/>
+        <field:input field="muutja" id="c_i377_team19_entities_Intsident_muutja" required="true" z="N2FcI7XsKgEYmjr8C5Rze51n170="/>
+        <field:input field="avaja" id="c_i377_team19_entities_Intsident_avaja" required="true" z="M9me8e1Dhj49FwJp6Rvmilkc804="/>
+        <field:input field="sulgeja" id="c_i377_team19_entities_Intsident_sulgeja" z="7def2qii7zKuDN7mgtCItAyfsmE="/>
+        <field:datetime dateTimePattern="${intsident_avatud_date_format}" field="avatud" id="c_i377_team19_entities_Intsident_avatud" required="true" z="cAC1aE1kHZT643Q7YPUtM0HP18o="/>
+        <field:datetime dateTimePattern="${intsident_muudetud_date_format}" field="muudetud" id="c_i377_team19_entities_Intsident_muudetud" required="true" z="yOw4rcHyySdVdyGr63U84BrfyQI="/>
+        <field:datetime dateTimePattern="${intsident_suletud_date_format}" field="suletud" id="c_i377_team19_entities_Intsident_suletud" z="8/42TmSTACBsSbDWUzqJrKaiUPM="/>
     </form:update>
 </div>

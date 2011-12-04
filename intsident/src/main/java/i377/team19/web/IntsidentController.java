@@ -9,4 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/intsidents")
 @Controller
 public class IntsidentController {
+
+//    public long countAll() {
+//        return Intsident.countIntsidents();
+//    }
 }
