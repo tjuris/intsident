@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_i377_team19_entities_Intsident" items="${intsidents}" z="A/rTgrot95+YghUEiYIisSxBKz4=">
+        <table:table data="${intsidents}" id="l_i377_team19_entities_Intsident" path="/intsidents" z="TURdbZWH/tYGBDgUU/teef5VO3A=">
+            <table:column id="c_i377_team19_entities_Intsident_name" property="name" z="GhKQcyN+TBsqzdWXtTooyFJe23Y="/>
+            <table:column date="true" dateTimePattern="${intsident_kuupaev_date_format}" id="c_i377_team19_entities_Intsident_kuupaev" property="kuupaev" z="dDUDw5awmhgp6/ilCQu6l9qQbx4="/>
+            <table:column id="c_i377_team19_entities_Intsident_loik" property="loik" z="XDSu9cQCK3VRbd9x3Ze7sndDD8Q="/>
+            <table:column id="c_i377_team19_entities_Intsident_seadus" property="seadus" z="No18owjLq7voQ+djkB3HAVtPtbc="/>
+        </table:table>
+    </page:list>
+</div>

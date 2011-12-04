@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_i377_team19_entities_Intsident" modelAttribute="intsident" path="/intsidents" versionField="Version" z="j8QCGQHs7Ak5S1KQVtIFVFVQs4w=">
+        <field:input field="name" id="c_i377_team19_entities_Intsident_name" required="true" z="n/UWTtXEAhTchHGm83HaB2g4Xks="/>
+        <field:datetime dateTimePattern="${intsident_kuupaev_date_format}" field="kuupaev" id="c_i377_team19_entities_Intsident_kuupaev" z="Cy583eYseHI64k19VAYxHchhTs4="/>
+        <field:select field="loik" id="c_i377_team19_entities_Intsident_loik" items="${loiks}" path="loiks" z="hEBFxy/bv4c6hbyqbibr3BBb+Ec="/>
+        <field:select field="seadus" id="c_i377_team19_entities_Intsident_seadus" items="${seaduses}" path="seaduses" z="DM8/iEY8jGE2YLdGxWHyxDjx3og="/>
+    </form:update>
+</div>

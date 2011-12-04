@@ -2,3 +2,19 @@
 project --topLevelPackage i377.team19 --projectName intsident --java 6
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-12-04 13:03:24
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-04 13:03:36
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-12-04 14:46:52
+persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT
+entity --class ~.entities.Intsident
+field string --fieldName name --notNull
+field date --fieldName kuupaev --type java.util.Date
+enum type --class ~.entities.Loik
+enum constant --name Narva
+enum constant --name Valga
+enum type --class ~.entities.Seadus
+enum constant --name Relvaseadus
+enum constant --name Piiriseadus
+focus --class i377.team19.entities.Intsident
+field enum --fieldName loik --type i377.team19.entities.Loik
+field enum --fieldName seadus --type i377.team19.entities.Seadus
+web mvc setup
+web mvc all --package ~.web
