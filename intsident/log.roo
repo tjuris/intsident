@@ -18,3 +18,4 @@ field enum --fieldName loik --type i377.team19.entities.Loik
 field enum --fieldName seadus --type i377.team19.entities.Seadus
 web mvc setup
 web mvc all --package ~.web
+security setup
